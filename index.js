@@ -55,7 +55,7 @@ for(var i=0;i<numberOfDrumButtons; i++){
 
     }
 
-    buttonAnimation(currentKey){
+    function buttonAnimation(currentKey){
         var activeButton=document.querySelector("."+ currentKey);
         activeButton.classList.add("pressed");
 
